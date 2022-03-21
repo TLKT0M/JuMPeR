@@ -1,0 +1,13 @@
+name = "JuMPeR"
+uuid = "f39e03c8-e041-433d-b251-8e2d8f4448f5"
+authors = ["TLKT0M <tom.klein@student.uni-siegen.de> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
